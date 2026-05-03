@@ -16,6 +16,10 @@ a{
 	text-decoration: none;
 	color: white;
 }
+.media-icons{
+	display: flex;
+	gap: 10px;
+}
 .link-boxes{
 	display:flex;
 	justify-content: space-around;
