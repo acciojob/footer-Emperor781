@@ -2,11 +2,14 @@
 *{
 	box-sizing: border-box;
 	margin:0;
-	padding: 0;
+	padding:0;
 	color: white;
 }
 body{
 	background-color: black;
+}
+.content{
+	padding:5%;
 }
 .top{
 	display: flex;
@@ -20,6 +23,9 @@ a{
 	display: flex;
 	gap: 10px;
 }
+.media-icons a{
+	
+}
 .link-boxes{
 	display:flex;
 	justify-content: space-around;
@@ -27,5 +33,16 @@ a{
 .link-boxes div{
 	display: flex;
 	flex-direction: column;
+	gap:10px
 	
+}
+h4{
+	text-decoration: underline;
+}
+
+.bottom-details{
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
+	background-color: grey
 }
